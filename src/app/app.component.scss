@@ -27,3 +27,13 @@
 .btn-save {
     @include button(7px, black, lightgreen)
 }
+
+%btn-app {
+    border: 2px solid greenyellow;
+    border-radius: 10px;
+}
+
+.btn-app-test {
+    background-color: aquamarine;
+    @extend %btn-app;
+}
